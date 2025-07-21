@@ -1,6 +1,3 @@
-Thanks for sharing your project structure.
-Given your **current directory (`devops-lab/`)** and **current progress (Terraform & Ansible setup only)**,
-here’s a **tailored `README.md`** that fits **your actual repo layout**:
 
 ---
 
@@ -24,8 +21,7 @@ This project sets up a DevOps pipeline using **Ansible** and **Vagrant/Terraform
 devops-lab/
 ├── ansible-env/               # Python virtual environment for Ansible (optional)
 ├── app.js                     # Node.js sample app (future deployment)
-├── Dockerfile                 # Dockerfile for the app
-├── Dokerfile                  # (typo) duplicate of Dockerfile – consider deleting/fixing
+├── Dockerfile                 # Dockerfile for the app                  # (typo) duplicate of Dockerfile – consider deleting/fixing
 ├── Vagrantfile                # Vagrant setup for local testing
 ├── inventory.ini              # Ansible inventory (Vagrant SSH details)
 ├── setup.yml                  # Ansible playbook to install Docker & Kind
